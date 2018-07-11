@@ -1,0 +1,19 @@
+package:
+  name: lodepng
+  version: "bd8f274fb51ef18b6d26b5f106ae4bef2150622e"
+
+source:
+  git_rev: bd8f274fb51ef18b6d26b5f106ae4bef2150622e
+  git_url: git@github.com:lvandeve/lodepng.git
+
+requirements:
+  build:
+    - {{ compiler('cxx')}}
+    - git
+  host: 
+    - zlib
+
+about:
+  home: https://github.com/lvandeve/lodepng
+  license: Unknown
+  license_file: LICENSE
